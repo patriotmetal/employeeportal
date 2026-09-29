@@ -1,0 +1,35 @@
+<!--
+  FAQ content for the Employee Portal's "FAQ" tab.
+  This file is loaded into the main patriot-portal.html at runtime via
+  fetch(), so it can be edited on its own without touching the main file.
+
+  To add/edit/remove a question, just add/edit/remove a ".faq-item" block
+  below — no other file needs to change.
+
+  NOTE: this only loads when the site is served over http/https (e.g.
+  GitHub Pages), not when patriot-portal.html is opened directly as a local
+  file (file://) — browsers block that kind of local file loading for
+  security reasons.
+-->
+<div class="card">
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">What is included in a standard concrete slab quote? <span>▼</span></div>
+    <div class="faq-a">Typically: 4″ slab, vapor barrier, 6-gauge wire mesh (center), and 12″×12″ perimeter footing. Dirt work, extra leveling beyond 1–2 free loads, and pump truck / grooving are usually extra. Always confirm with the current pricing sheet.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">When do we use 6″ slab vs 4″? <span>▼</span></div>
+    <div class="faq-a">6″ is common for heavier equipment, higher point loads, or when the engineer / local code requires it. The calculator applies the 6″ markup automatically when selected.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">How do spray foam thicknesses work? <span>▼</span></div>
+    <div class="faq-a">We currently price 1″ and 2″. The calculator uses customer rates of $1.85 / $2.75 per sq ft respectively, plus a standard $400 travel/rental allowance. Contractor (our cost) rates are lower and shown for margin reference.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Where can I find wind / snow load requirements? <span>▼</span></div>
+    <div class="faq-a">Use the Zipcode Tool for location data and a starting point. Final design loads should always be verified with the project engineer or the free ATC Hazards tool (hazards.atcouncil.org) and local building department. Do not rely solely on regional averages for stamped drawings.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Who do I contact for pricing updates? <span>▼</span></div>
+    <div class="faq-a">Update the concrete and foam pricing tables in this portal (or the source spreadsheets) whenever vendor rates change. Keep a dated note of the last update for the team.</div>
+  </div>
+</div>
